@@ -35,7 +35,7 @@ public class MyView2 extends HorizontalLayout {
         ComboBox<String> badWordBox = new ComboBox<>("Bad Words");
         VerticalLayout v1 = new VerticalLayout();
         VerticalLayout v2 = new VerticalLayout();
-        System.out.println(words.goodWords);
+//        System.out.println(words.goodWords);
         goodWordBox.setItems(words.goodWords);
         badWordBox.setItems(words.badWords);
 
